@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    color: black;    
+}
+body{
+    background-color: rgba(19, 18, 18, 1);
+}
+#retornar{
+   display: flex;
+   justify-content: end;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+table{
+    background-color: rgba(106, 119, 23, 0.48);
+    border-radius: 30px;
+    align-items: center;
+    height: 300px;
+    padding: 10px;
+    margin: auto;    
+}
+
+tr{
+    background-color: rgba(217, 217, 217, 1);   
+}
+td{
+    padding: 10px;
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    /* color: white; */
+    background-color: rgba(19, 18, 18, 1);
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.jogadores{    
+    padding-top: 80px;    
+    display: flex;
+    justify-content: center;       
+} 
+
+#jogador1{    
+    background-color: rgba(221, 10, 10, 0.4);   
+    text-align: center;
+    height: 50px;
+    width: 300px;
+    border-radius: 30px;
+}
+
+#jogador2{
+    background-color: rgba(2, 155, 137, 0.52);    
+    text-align: center;    
+    height: 50px;
+    width: 300px;
+    border-radius: 30px;
+    margin-left: 40px;
+}
+
+#iniciar{
+    background-color: black;
+    color: white;    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    margin-top: 80px;    
+    height: 50px;
+    width: 100px;    
+    font-weight: 700;
+    cursor: pointer;
+}
+#iniciar:hover{
+    color: red;
+}
+
+div > a{
+    text-decoration: none;
+}
+

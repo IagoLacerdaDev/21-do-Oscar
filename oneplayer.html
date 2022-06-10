@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Jogador Vs. Computador </title>
+    <link rel="stylesheet" href="css/oneplayer.css">
+</head>
+
+<body>
+    <header>
+        <a href="sectionscreen.html" rel="next" target="_self"><img src="img/return1.png" alt="returnmainscreen"></a>
+        <a href="oneplayer.html" rel="next" target="_self"> <img src="img/restart1.png" alt="reniciar"> </a>
+    </header>
+
+    <main>
+        <section class="valores">
+            <div class="players" >
+                <h2>Player</h2>
+                <input class="btn" id="soma1" type="submit" value="1">
+                <input class="btn" id="soma2" type="submit" value="2">
+                <input class="btn" id="soma3" type="submit" value="3">
+                <h2 class="plac" >Jogador 1 jogou:</h2>
+                <div id="play1" class="contador"></div>
+            </div >
+            
+            <div class="players" id="computer"> 
+                <h2>Computer</h2>
+                <div>
+                    <input class="btn" id="soma01" type="submit" value="1">
+                    <input class="btn" id="soma02" type="submit" value="2">
+                    <input class="btn" id="soma03" type="submit" value="3">
+                    <h2 class="plac" id="placa2">Escolha do computador:</h2>
+                    <div id="comp" class="contador"></div>
+                </div>
+            </div>
+        </section>
+
+    </main><br><br>
+    <!-- <a id="end" href="result.html"><input type="button" value="RESULTADO" 
+    
+    style=" background-color: black;
+        display: flex;
+        justify-items: center;
+        height: 50px;
+        width: 85px;
+        justify-content: center;
+        margin: auto;
+    "></a> -->
+    <!-- <footer>
+        <a href="ranking.html"> <img src="img/ranking1.png" alt="podium"></a>
+       
+    </footer> -->
+    <script src="js/onplayer.js"></script>
+</body>
+
+</html>

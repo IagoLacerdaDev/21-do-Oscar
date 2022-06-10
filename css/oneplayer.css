@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;    
+}
+html, body{
+    height: 100%;
+    background-color: rgba(19, 18, 18, 1);
+}
+.valores{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding-top: 100px;    
+    text-align: center;    
+    height: 130px;
+   
+}
+
+.players{
+    /* display: inline-block; */
+    justify-content: center;
+    height: 150px;
+    width: 600px;
+   padding: 50px;   
+}
+.contador{
+    display: flex;   
+    justify-content: center;  
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    font-size: 2em;
+    background-color: rgb(10, 10, 10);
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;   
+}
+.plac{
+    margin-top: 50px;
+}
+
+input{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    text-align: center;
+}
+h2{
+    margin: 10px;
+    text-align: center;
+}
+#soma1{
+    background-color: rgba(114, 7, 7, 1);
+    cursor: pointer;
+}
+#soma1:hover{
+    background-color: rgb(238, 4, 4);
+}
+#soma2:hover{
+    background-color: rgb(4, 83, 255);
+}
+#soma3:hover{
+    background-color: rgb(4, 238, 4);
+}
+#soma01:hover{
+    background-color: rgb(238, 4, 4);
+}
+#soma02:hover{
+    background-color: rgb(4, 83, 255);
+}
+#soma03:hover{
+    background-color: rgb(4, 238, 4);
+}
+#soma2{
+    background-color: rgba(13, 74, 192, 1);
+    cursor: pointer;
+}
+#soma3{
+    background-color: rgba(21, 126, 4, 1);
+    cursor: pointer;
+}
+#soma01{
+    background-color: rgba(114, 7, 7, 1);
+    cursor: pointer;
+}
+#soma02{
+    background-color: rgba(13, 74, 192, 1);
+    cursor: pointer;
+}
+#soma03{
+    background-color: rgba(21, 126, 4, 1);
+    cursor: pointer;
+}
+footer{
+    margin-top: 210px;
+    padding: 25px;
+    float: right;
+}
+
+
+

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;    
+}
+body{
+    background-color: rgba(19, 18, 18, 1);
+}
+div{
+    align-self: auto;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(106, 119, 23, 0.48);
+    
+    align-items: center;
+    height: 300px;
+    padding: 10px;
+    margin: auto; 
+}
+p{
+    font-size: 50px;
+    align-self: center;
+    justify-content: center;
+    display: flex;
+}
+img{
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+    display: flex;
+    align-self: center;
+    margin: auto;
+}
+/* img.fot{
+    background-color: rgb(49, 47, 47);
+    height: 120px;
+    width: 120px;
+    display: inline-flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+} */
